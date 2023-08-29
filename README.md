@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
 - [Usage](#usage)
-- [Preprocessing](#preprocessing)
 - [NLP Pipeline](#nlp-pipeline)
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
@@ -32,12 +31,6 @@ The following preprocessing tasks are performed:
 2. Tokenization: Splitting the text into individual words or tokens.
 3. Removing Stopwords: Stopwords are common words that don't contribute much to the meaning. Removing them can reduce noise and improve efficiency.
 4. Stemming and Lemmatization: Stemming reduces words to their root form (e.g., "running" to "run")
-
-The NLP pipeline consists of the following steps:
-
-1. Tokenization: Splitting the text into individual words or tokens.
-2. Stopword Removal: Filtering out common words that don't carry significant meaning.
-3. Stemming: Reducing words to their root form to normalize the text.
 
 ## Model Training
 
